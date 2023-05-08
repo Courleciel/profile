@@ -59,7 +59,7 @@ background-color: #f2f3ae;
   width: 300px;
 }
 .container {
-  width: 500px;   /* Définit la largeur */
+  width: 800px;   /* Définit la largeur */
   margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
   background-color: #edd382;
 }
@@ -112,4 +112,8 @@ i {
   .container {
     width: 300px;
   }
+}
+
+.giphy-embed{
+  margin : 0 auto;
 }
