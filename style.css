@@ -1,0 +1,115 @@
+
+h1 {
+  color: #2B3467;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-style: bold;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  color: #EB455F;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: underline;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 50px;
+  color : #ff521b;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  background-color: greenyellow;
+}
+
+div {
+border : solid;
+padding : 50px;
+border-radius: 4px;
+box-shadow: 10px 5px 5px #ff521b;
+background-color: #f2f3ae;
+}
+
+.img-profile {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 3px orangered;
+}
+
+.img-profile-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 3px orangered;
+  padding: 5px;
+  width: 300px;
+}
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  background-color: #edd382;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+i {
+  font-size: 50px;
+}
+
+#github-link {
+  background-color: #fc9e4f;
+  padding : 15px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 25px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
